@@ -300,7 +300,7 @@ const journals = [
         <div>
           <h2 class="font-editorial text-5xl leading-none">物志东方</h2>
           <p class="mt-6 max-w-lg leading-8 text-rice/64">
-            Contemporary Chinese lifestyle objects shaped by craft, silence, nature, and light.
+            东方生活方式品牌.
           </p>
         </div>
         <div class="grid gap-6 text-sm text-rice/64 sm:grid-cols-3 md:text-right">
@@ -310,7 +310,7 @@ const journals = [
           </div>
           <div>
             <p class="text-rice">Contact</p>
-            <p class="mt-2">studio@wuzhidongfang.cn</p>
+            <p class="mt-2">info@wuzhidongfang.store</p>
           </div>
           <div>
             <p class="text-rice">Year</p>
