@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: '物志东方 | Contemporary Chinese Lifestyle',
+      title: '物志东方 | 中国当代东方生活方式品牌',
       meta: [
         { name: 'description', content: '物志东方 is a contemporary Chinese lifestyle brand shaped by materiality, craftsmanship, silence, nature, ceramics, linen, incense, light and shadow.' },
         { name: 'color-scheme', content: 'light only' },
