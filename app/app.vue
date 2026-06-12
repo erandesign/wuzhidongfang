@@ -40,24 +40,28 @@ const categories = [
 
 const products = [
   {
+    id: 'yuebai-liankou-ping',
     name: '月白敛口瓶',
     type: '手作陶瓷',
     price: '¥1,280',
     image: '/images/product-vessel.png'
   },
   {
+    id: 'suma-changjin',
     name: '素麻长巾',
     type: '水洗亚麻',
     price: '¥620',
     image: '/images/product-linen-runner.png'
   },
   {
+    id: 'xuanxi-woxiang-zuo',
     name: '玄石卧香座',
     type: '石陶复合',
     price: '¥760',
     image: '/images/product-incense-holder.png'
   },
   {
+    id: 'zhiying-yedeng',
     name: '纸影夜灯',
     type: '楮纸与胡桃木',
     price: '¥1,460',
@@ -240,9 +244,10 @@ const journals = [
           </div>
 
           <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            <article
+            <NuxtLink
               v-for="(product, index) in products"
               :key="product.name"
+              :to="`/product/${product.id}`"
               v-motion-reveal
               :class="index % 2 === 1 ? 'motion-delay-1' : ''"
               class="group border border-carbon/10 bg-rice"
@@ -261,7 +266,7 @@ const journals = [
                   <span class="text-sm text-clay">{{ product.price }}</span>
                 </div>
               </div>
-            </article>
+            </NuxtLink>
           </div>
         </div>
       </section>
