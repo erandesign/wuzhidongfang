@@ -4,12 +4,17 @@ export default defineNuxtConfig({
   css: ['~/assets/css/tailwind.css'],
   devtools: { enabled: true },
   nitro: {
-    preset: 'cloudflare_pages',
-    output: {
-      dir: '.output/public'
-    },
     externals: {
       trace: false
+    },
+    prerender: {
+      routes: [
+        '/',
+        '/product/yuebai-liankou-ping',
+        '/product/suma-changjin',
+        '/product/xuanxi-woxiang-zuo',
+        '/product/zhiying-yedeng'
+      ]
     }
   },
   app: {
