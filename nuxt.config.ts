@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     },
     prerender: {
       routes: [
-        '/',
         '/product/yuebai-liankou-ping',
         '/product/suma-changjin',
         '/product/xuanxi-woxiang-zuo',
