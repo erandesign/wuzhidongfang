@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/tailwind.css'],
   devtools: { enabled: true },
   nitro: {
+    preset: 'cloudflare_pages',
     externals: {
       trace: false
     }
