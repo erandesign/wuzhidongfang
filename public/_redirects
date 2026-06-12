@@ -1,0 +1,5 @@
+# Rewrite product detail paths to their prerendered HTML files
+/product/yuebai-liankou-ping  /product/yuebai-liankou-ping/index.html  200
+/product/suma-changjin  /product/suma-changjin/index.html  200
+/product/xuanxi-woxiang-zuo  /product/xuanxi-woxiang-zuo/index.html  200
+/product/zhiying-yedeng  /product/zhiying-yedeng/index.html  200
