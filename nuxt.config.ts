@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   nitro: {
     preset: 'cloudflare_pages',
+    output: {
+      dir: '.output/public'
+    },
     externals: {
       trace: false
     }

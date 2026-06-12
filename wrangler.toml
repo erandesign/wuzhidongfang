@@ -1,6 +1,0 @@
-name = "wuzhidongfang"
-pages_build_output_dir = "dist"
-compatibility_date = "2026-06-12"
-
-[build]
-command = "npm run build"
